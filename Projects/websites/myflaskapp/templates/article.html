@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="blog-post">
+  <h2 class="blog-post-title">{{title}}</h2>
+  <p class="blog-post-meta">{{create_date}}<a href="#">{{author}}</a></p>
+  <p>{{body}}</p>
+</div><!-- /.blog-post -->
+{% endblock %}
